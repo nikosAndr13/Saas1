@@ -1,0 +1,299 @@
+ @media  screen and (max-width:768px) {
+   body{padding:0px 15px 0px 15px;}
+   .container {padding:10px;}
+   .section1 {margin-top: 5rem;}
+   .google {right: 300px;}
+   .paypal {right:350px;}
+   .atlassian {right:200px;}
+   .ads {left:450px;}
+   .weave {right:150px;}
+   .asana {right:50px;}
+   .calendar {right:50px;}
+   .cards {
+     gap:30px;
+     grid-template-areas: 
+     "Responsive Customizable"
+     "Premium Documentation";
+   }
+   .prices {
+     padding-left: var(--size-40);
+     grid-template-areas: 
+     "Get-started"
+     "nested-grid";
+   }
+   .prices .Get-started > .start {font-size:1rem;}
+   .Software .Front {
+    font-size: 1.5rem;
+    padding-top: var(--size-20);
+     padding-left: var(--size-20);}
+   .Software > img {width:25rem;}
+   .hire-us {
+     grid-template-areas: 
+     "hire"
+     "form";
+   }
+   .hire{padding:var(--size-50);}
+   .form {
+     padding: var(--size-40);
+     margin: auto;
+    }
+    .form  > form {
+      gap:40px;
+    }
+    input, select, textarea {
+      padding:15px 5px 15px 15px;
+      font-size: 1rem;
+    }
+ }
+ 
+ 
+ 
+ @media screen and (max-width:375px) {
+   /* Responsive navbar toggler */
+  [aria-controls="navbarDropdown"] {
+    display: block;
+    position:absolute;
+    right: 20px;
+    outline: none;
+    background-color: transparent;
+    border:1px solid transparent;
+  }
+
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    display: block;
+    position: absolute;
+    right:0;
+    top:100px;
+    background-image: rgba(255, 255, 255, 1);
+    width:100%;
+    text-align: right;
+    background-image:  linear-gradient(to right, transparent 76%, rgba(255, 255, 255) 77%); ;
+  }
+
+  [aria-expanded="true"] ~ ul li a {
+    margin-right: 20px;
+    color:var(--navbar-section-text);
+  }
+  body{padding: initial;}
+  .upper-navbar, .upper-navbar a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color:var(--navbar-section-text);
+    padding: 5px 5px 10px 5px;
+  }
+  .navbar {padding-left:10px;}
+.navbar-nav {place-items: center;}
+  .container {
+    display: flex;
+    place-items: center;
+    padding: initial;
+  }
+  .container > img {padding-top:5px;}
+  /* section one */
+  .section1 {
+    margin-top:1rem;
+    flex-direction: column;
+    gap: 15.5rem;
+  }
+
+  /* text and links */
+  .section1 > .text {max-width:18rem;}
+  .section1 .text > span {
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 38px;
+  }
+  .section1 > .text {padding-left:15px;}
+  .buttons button {padding:.6rem;}
+  .navbar-nav li button > #buy {margin: initial;}
+  .navbar-nav li > button {padding:.3rem;}
+  /* styling and positioning the icons */
+  .icons {
+    flex-direction: row;
+    gap:0;
+  }
+  .google {
+    top:380px;
+    left:100px;
+  }
+  .paypal {
+    padding:5px;
+    top:490px;
+    left:65px;}
+  .atlassian {
+    padding:3px;
+    top:430px;
+    left:170px;
+  }
+  .asana {
+    top:370px;
+    right:40px;
+  }
+  .weave {
+    padding:0;
+    top:480px;
+    right:80px;
+  }
+  
+  .icons div > img {width:2.5rem;}
+  .icons > .ads, .icons > .calendar {display: none;}
+
+
+  /* Key-benefits section */
+  .Key-Benefits1 {margin-top:3rem;}
+  .Key-Benefits .text > h2 {font-size: 2rem;}
+  .Key-Benefits .text > h3 {padding-top: 0;}
+  /* the cards */
+  .cards {
+    margin: auto;
+    gap:30px;
+    grid-template-areas: 
+    "Responsive"
+    "Customizable"
+    "Premium"
+    "Documentation";
+    padding-left: var(--size-10);
+  }
+  .prices {padding:initial;}
+  /* Software section */
+  .Software {
+    margin-top:var(--size-100);
+    padding: 0;
+    flex-direction: column;
+    gap:5rem;
+  }
+  .Software .Front {
+    padding-left:var(--size-20);
+    font-size: 1.7rem;
+  }
+  .Software img {
+    display: block;
+    margin-left:auto;
+    width:19rem;
+  }
+  .Software:hover img {
+    animation-name: myAnim;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.1s;
+  }
+  .Software .Front > #start {padding:12px 20px 12px 20px;}
+  /* dots section (and the text) */
+  .dots {padding-top: var(--size-40);}
+  .Why-Front .dots, .Why-Front .text1 {
+    padding-left: var(--size-10);
+    flex-direction: column;
+    gap:var(--size-20);
+  }
+  .Why-Front .dots > .line {display: none;}
+  /* the text under the dots */
+  .Why-Front .text1 {
+    padding-top:45px;
+    gap:40px;
+  }
+  .Why-Front .text1 > #two {padding-left:0;}
+  .mobile-row {
+  display: flex;
+  flex-direction: row;
+}
+/* image and the play button  */
+.Why-Front .banner-two > img {height:15rem;}
+.Why-Front .play {
+  top:-150px;
+  padding:25px;
+}
+.Why-Front .play > i {font-size: 15px;}
+/* hubspot section */
+.Why-Front > .hubs {
+  padding-left: 12px;
+  flex-direction: column;
+  margin: 0;
+}
+.Why-Front .hubs .hubspot > .woman-three {width:22rem;}
+.Why-Front .hubspot > .dot {
+  width:13rem;
+  position: absolute;
+  top:55px;
+  left:8px;
+}
+.Why-Front .hubspot-1 > p {font-size: 1.1rem;}
+/* the logo section */
+.logo {margin-top:5rem;}
+.logo div > .weebly, .logo div > .uber {display: none;}
+.logo hr {display: block;}
+/* Pricing grid */
+.prices {
+  gap:var(--size-40);
+  grid-template-areas: 
+  "Get-started"
+  "nested-grid";
+}
+.prices .Get-started {
+  padding:var(--size-20);
+  margin:0;
+}
+.nested-grid {
+  padding:15px;
+  font-size: 1rem;
+  gap:var(--size-20);
+  grid-template-areas: 
+  "components"
+  "images"
+  "cancel"
+  "money";
+}
+.components .text1 > br, .images .text1 > br, .money .text1 > br,
+.cancel .text1 > br {display: none;}
+/* the hire-us section with the contact form */
+.hire-us {
+  padding:2rem;
+  row-gap: var(--size-100);
+  grid-template-areas: 
+  "hire"
+  "form";
+}
+.reach-us {font-size: 1.2rem;}
+.hire ,.form {padding:0;}
+.form > form {
+  display: flex;
+  flex-direction: column;
+}
+input, select, textarea {padding:.8rem;}
+select {max-width:250px;}
+/* page-end section */
+.page-end {
+  gap:var(--size-50);
+  display:grid;
+  grid-template-areas: 
+  "info info"
+  "Company Features"
+  "Documentation1 Resources";
+}
+.info {grid-area:info;}
+.Company {grid-area:Company;}
+.Features {grid-area:Features;}
+.Documentation1 {grid-area:Documentation1;}
+.Resources {grid-area:Resources;}
+/* social media section inside pre-footer */
+.media {
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  max-width: 350px;
+  padding:3rem 0rem 0rem .5rem 
+}
+footer p {
+  padding-left: var(--size-10);
+  text-align: left;
+  font-size:0.81rem;
+  opacity: 0.6;
+}
+footer p > br {display: none;}
+}
+

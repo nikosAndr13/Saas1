@@ -1,0 +1,355 @@
+.upper-navbar a {color:var(--navbar-section-text);}
+.navbar img {
+  padding:8px 0px 8px 0px;
+  width: 9rem;
+}
+
+
+/* section1 */
+/* The title */
+.text > .title {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-weight: 600;
+  color: var(--navbar-section-text);
+}
+/* styling the icons + animation */
+.icons > div {
+  height: max-content;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid white;
+  animation-duration: 0.9s;
+  animation-iteration-count: 1;
+  transition: ease-in-out;
+}
+/* The link and button */
+.buttons a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--font-color-blue);
+}
+.text .buttons #play, .navbar-nav li button > #buy {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: initial;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+.navbar-nav li > button {
+padding: var(--size-10);
+    border-radius: var(--size-20);
+    border-color: var(--font-color-blue);
+    background-color: var(--font-color-blue);
+    color: var(--white);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.buttons button {
+  padding: 0.95rem;
+  color: var(--white);
+  background-color: var(--font-color-blue);
+  border: transparent;
+  border-radius: var(--size-50);
+  text-decoration: none;
+}
+/* styling the icons */
+.google, .paypal, .ads, .atlassian, .weave,
+ .asana, .calendar {
+   background-color: var(--white);
+   border-radius: 50%;
+   width: fit-content;
+  }
+  /* styling the cards */
+  .cards img {width: var(--size-50);}
+
+  .responsive > .title, .customizable > .title, .Premium > .title, .Documentation > .title,
+  .components > .title, .images > .title, .cancel > .title, .money > .title{
+    font-family: 'Hind',sans-serif;
+    font-weight: 600;
+    font-size: var(--size-20);
+    display: block;
+    padding-top: 10px;
+  }
+  .responsive a, .customizable a, .Premium a, .Documentation a {
+    text-decoration: none;
+    color: var(--font-color-blue);
+    font-weight: 500;
+    display: block;
+    padding-top: var(--size-20);
+    padding-bottom: var(--size-20);
+}
+.Premium > .sketch {
+  background-color: #1bceaf;
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: var(--size-50);
+  display: initial;
+  position: relative;
+  top: -20px;
+  right: -95px;
+}
+/* styling the text of software section */
+.Software .Front {
+  margin-right: auto;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.77);
+  padding-left: var(--size-100);
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+  word-spacing: 2px;
+  padding-top: var(--size-50);
+}
+/* styling the .Get-started button */
+.Software .Front > #start, .prices .Get-started > #start {
+  background-color: var(--font-color-blue);
+  text-decoration: none;
+  color: var(--white);
+  font-size: 0.89rem;
+  letter-spacing: 0.02rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: var(--size-50);
+  position: relative;
+  bottom: -15px;
+}
+/* styling the dots */
+.Why-Front .dots > .dot {
+  font-size: 2.3rem;
+  border-radius: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  background-color: rgba(236,242,255,255);
+  display: flex;
+  justify-content: center;
+  color: var(--font-color-blue);
+}
+/* styling the lines */
+.Why-Front .dots > .line {
+  border-bottom: 3px solid rgba(236,242,255,255);
+  width: 130px;
+  position: relative;
+  bottom: 20px;
+}
+/* style the text under the dots */
+.Why-Front .text1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: left;
+  padding-top: 10px;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+}
+/* styling the play button */
+.Why-Front .play {
+  background-color: white;
+  box-shadow: -3px -3px 13px 10px rgb(236 242 255);
+}
+/* The hubspot section */
+.Why-Front .hubs .hubspot > .woman-three {
+  z-index: 100;
+  position: relative;
+  width: 28rem;
+  border-radius: var(--size-10);
+}
+.Why-Front .hubspot > .dot {
+  position: absolute;
+  top: 150px;
+  left: -55px;
+  width: 13.5rem;
+}
+/* hubspot logo and text */
+.Why-Front .hubspot-1 > img {width: 6rem;}
+.Why-Front .hubspot-1 > p {
+  padding-top: var(--size-20);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 30px;
+  font-size: var(--size-20);
+}
+.Why-Front .hubspot-1 > .who-is {
+  padding-top: var(--size-40);
+  font-weight: 700;
+  color: var(--navbar-section-text);
+}
+.Why-Front .hubspot-1 .who-is > span {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+/* styling the logo section */
+.logo .logos {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: rgba(91, 92, 94, 0.568);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.logo div > img {width: 6rem;}
+.logo hr {
+  opacity: 0.3;
+  display: none;
+  max-width: 350px;
+  width: 100%;
+}
+/* The grid pricing section */
+/* The 59$/mo cell */
+.prices .Get-started > .month {font-size: var(--size-20);}
+.prices .Get-started p > span {
+  font-size: var(--size-50);
+  font-weight: 600;
+}
+.prices .Get-started > .start {
+  width: 300px;
+  line-height: var(--size-20);
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.651);
+  font-weight: 600;
+}
+.prices .Get-started > #start {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 10rem;
+}
+.prices .Get-started > .start {
+  width: 300px;
+  line-height: var(--size-20);
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.651);
+  font-weight: 600;
+}
+.Get-started hr {margin: initial;}
+/* The rest of the cells */
+.components img, .images img, .cancel img, .money img {
+  width: 2.875rem;
+}
+.components > .text1, .images > .text1, .cancel > .text1, .money > .text1 {
+  font-family: 'Hind', sans-serif;
+  font-size: 1rem;
+  opacity: 0.8;
+  font-weight: 400;
+}
+/* styling the hire-us section */
+.hire-us {
+  background-color: var(--Contact-form-background);
+  display: grid;
+  grid-template-areas: "hire form";
+  color: var(--white);
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2rem;
+}
+/* styling the text */
+.hire > .title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.hire > .goal, .moore > .goal {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+.hire > hr {
+  margin-left:0;
+  margin-top: var(--size-20);
+  width: 10rem;
+  opacity: 0.3;
+}
+.hire > #love {
+  line-height: initial;
+  font-style: italic;
+}
+/* styling the form */
+.form > form {
+  line-height: var(--size-20);
+  font-size: var(--size-20);
+  border-radius: var(--size-10);
+  padding: 2.5rem 2.3rem 2.5rem 2.3rem;
+  color: rgba(0, 0, 0, 0.885);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background-color: var(--white);
+}
+.form{padding: 5rem 7.5rem 5rem 1rem;}
+/* The icons */
+.hire-us .hire .people1 > img {
+  padding: 15px;
+  border-radius: 50%;
+  width: 3.8rem;
+}
+/* The contact form labels and inputs */
+input, select, textarea {
+  font-size: 0.85rem;
+  outline: none;
+  padding: var(--size-10);
+  border: 1px solid rgba(211, 211, 211, 0.725);
+}
+form > label {
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.7;
+  grid-area: 7 / 1 / span 1 / span 2;
+}
+form a {
+  color: var(--navbar-section-text);
+  border-bottom: 2px dashed rgba(88, 81, 81, 0.475);
+  text-decoration: none;
+}
+/* page-end styling text text (links) */
+.info > a, .Company > a, .Features > a, .Documentation1 > a, .Resources > a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--navbar-section-text);
+  font-size: 0.9rem;
+}
+.Company > .bold, .Features > .bold, .Documentation1 > .bold, .Resources > .bold {
+  font-size: 1rem;
+  font-weight: 800;
+}
+.page-end a:hover{color:var(--font-color-blue);}
+/* we-are-hiring  */
+.Company a > .sketch {
+  margin-left: 5px;
+  padding: 3px;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 0.74rem;
+  color: var(--white);
+  background: var(--font-color-blue);
+}
+/* Pre-footer section */
+.privacy {padding-top: var(--size-20);}
+.privacy a {
+  color: var(--navbar-section-text);
+  text-decoration: none;
+  padding: 0rem 10px 0rem 10px;
+  font-size: 0.89rem;
+}
+.social > div {
+  background: rgba(211, 211, 211, 0.425);
+  padding: 3px 8px 3px 8px;
+  border-radius: 5px;
+}
+.social div > i {opacity: 0.6;}
+.social > .USA {
+  font-size: 0.8rem;
+  width: 9rem;
+  margin: auto;
+}
+/* styling the footer */
+footer > p {
+  font-size: 0.8rem;
+  padding-bottom: var(--size-10);
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
